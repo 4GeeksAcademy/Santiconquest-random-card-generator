@@ -1,1 +1,16 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+#carta {
+  height: 500px;
+}
+/* Se asigna a todos los h1 hijos de figura 2 */
+#figura2 > h1 {
+  transform: rotate(180deg);
+  font-size: 6rem;
+}
+#figura1 > h1 {
+  font-size: 6rem;
+}
+#number > h1 {
+  font-size: 6rem;
+}
